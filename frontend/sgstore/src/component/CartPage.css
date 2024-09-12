@@ -1,0 +1,70 @@
+/* General styles for the cart page */
+.cart-page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-page h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style for the total price section */
+  .total-price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .total-price-section p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for the 'Buy Now' button */
+  .buy-now-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #218838;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .cart-page {
+      width: 95%;
+    }
+  
+    .total-price-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

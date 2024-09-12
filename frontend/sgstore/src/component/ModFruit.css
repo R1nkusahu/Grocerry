@@ -1,0 +1,82 @@
+/* ModFruit.css */
+.mod-fruit {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mod-fruit form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.mod-fruit input,
+.mod-fruit textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.mod-fruit button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mod-fruit button:hover {
+  background-color: #218838;
+}
+
+.fruit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.fruit-card-container {
+  background-color: white;
+  
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.fruit-card-container img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.fruit-card-container button {
+  background-color: #dc3545;
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.fruit-card-container button:hover {
+  background-color: #c82333;
+}
+.fr{
+  color: rgb(144, 106, 134);
+  text-align: center;
+  margin-right: 300px;
+}

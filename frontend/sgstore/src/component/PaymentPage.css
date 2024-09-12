@@ -1,0 +1,66 @@
+/* General styles for the payment page */
+.payment-page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .payment-page h1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .payment-page p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Button styling */
+  .payment-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background-color: #218838;
+  }
+  
+  .payment-button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .payment-page {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .payment-page h1 {
+      font-size: 24px;
+    }
+  
+    .payment-page p {
+      font-size: 18px;
+    }
+  
+    .payment-button {
+      padding: 12px 25px;
+      font-size: 16px;
+    }
+  }
+  .hh{
+    align-items: center;
+  }

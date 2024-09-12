@@ -1,0 +1,54 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b6deb4;
+    padding: 10px 20px;
+    border-radius: 13px;
+  }
+  
+  .navbar-logo a {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-search {
+    display: flex;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .navbar-search button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-search button:hover {
+    background-color: #777;
+  }
+  

@@ -1,0 +1,15 @@
+.fruit-li{
+margin-top: 40px;
+}
+
+.ad-photo{
+    object-fit: cover;
+    margin-top: 15px;
+    width: 1500px;
+}
+.vd{
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
