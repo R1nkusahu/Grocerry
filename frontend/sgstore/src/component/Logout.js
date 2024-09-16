@@ -5,7 +5,7 @@ function Logout() {
     try {
       await axios.delete('http://localhost:3000/logout', { withCredentials: true });
       alert('Logged out successfully');
-      // handle post-logout actions (e.g., redirect, update state)
+    
     } catch (error) {
       console.error('Error logging out:', error);
     }
