@@ -15,7 +15,6 @@ function SearchBar() {
         params: { query: searchTerm }
       });
 
-      // You can handle the search results here or redirect
       console.log(response.data);
       navigate('/search-results', { state: { results: response.data } });
     } catch (error) {
