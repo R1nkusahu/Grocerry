@@ -16,7 +16,6 @@ width: auto;
   }
   
   .about-photo {
-    /* padding: 15px; */
     background-color: rgb(66, 175, 50);
     box-shadow: 10px 10px 5px rgb(176, 212, 167);
     width: 400px;
